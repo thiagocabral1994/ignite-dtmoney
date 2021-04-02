@@ -1,11 +1,11 @@
 import React, { FormEvent, useState } from 'react';
 import Modal from 'react-modal';
-import { api } from '../services/api';
+import { api } from '../../services/api';
 
 import { FormContainer, TransactionTypeContainer, RadioBox } from './styles';
-import incomeImg from '../assets/income.svg';
-import outcomeImg from '../assets/outcome.svg';
-import closeImg from '../assets/close.svg';
+import incomeImg from '../../assets/income.svg';
+import outcomeImg from '../../assets/outcome.svg';
+import closeImg from '../../assets/close.svg';
 
 Modal.setAppElement('#root');
 

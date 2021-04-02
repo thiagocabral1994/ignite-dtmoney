@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Header } from "./components/Header";
 import { Dashboard } from "./components/Dashboard";
 import { GlobalStyle } from "./styles/global";
-import { NewTransactionModal } from "./NewTransactionModal";
+import { NewTransactionModal } from "./components/NewTransactionModal";
 
 
 export function App() {
